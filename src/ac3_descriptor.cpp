@@ -37,20 +37,15 @@ Ac3Descriptor::Ac3Descriptor(const uint8_t * const buffer) : Descriptor(buffer)
 	if (ac3TypeFlag == 1)
 		ac3Type = buffer[i++];
 
-	if (bsidFlag == 1 && descriptorLength != 2)
-		bsid = buffer[i++];
-
 	if (mainidFlag == 1)
 		mainid = buffer[i++];
 
 	if (asvcFlag == 1)
 		avsc = buffer[i++];
         
-        if (descriptorLength == 2 && bsidFlag == 1){
+        if (descriptorLength == 2 && bsidFlag == 1)
                 bsidFlag = 0; // Clear bsid to prevent it looking for a 3rd data byte that isn't there.
-                bsid = buffer[i++];
-        }
-
+                
         additionalInfo.resize(descriptorLength - headerLength);
 	memcpy(&additionalInfo[0], &buffer[i], descriptorLength - headerLength);
         
