@@ -1,0 +1,608 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="97">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <df name="src">
+        <in>aac_descriptor.cpp</in>
+        <in>ac3_descriptor.cpp</in>
+        <in>adaptation_field_data_descriptor.cpp</in>
+        <in>ancillary_data_descriptor.cpp</in>
+        <in>announcement_support_descriptor.cpp</in>
+        <in>application_descriptor.cpp</in>
+        <in>application_icons_descriptor.cpp</in>
+        <in>application_identifier.cpp</in>
+        <in>application_information_section.cpp</in>
+        <in>application_name_descriptor.cpp</in>
+        <in>application_profile.cpp</in>
+        <in>application_signalling_descriptor.cpp</in>
+        <in>application_storage_descriptor.cpp</in>
+        <in>application_usage_descriptor.cpp</in>
+        <in>audio_stream_descriptor.cpp</in>
+        <in>bouquet_association_section.cpp</in>
+        <in>bouquet_name_descriptor.cpp</in>
+        <in>ca_descriptor.cpp</in>
+        <in>ca_identifier_descriptor.cpp</in>
+        <in>ca_message_section.cpp</in>
+        <in>ca_program_map_section.cpp</in>
+        <in>ca_section.cpp</in>
+        <in>cable_delivery_system_descriptor.cpp</in>
+        <in>caching_priority_descriptor.cpp</in>
+        <in>carousel_identifier_descriptor.cpp</in>
+        <in>cell_frequency_link_descriptor.cpp</in>
+        <in>cell_list_descriptor.cpp</in>
+        <in>component_descriptor.cpp</in>
+        <in>compressed_module_descriptor.cpp</in>
+        <in>content_descriptor.cpp</in>
+        <in>content_identifier_descriptor.cpp</in>
+        <in>content_identifier_section.cpp</in>
+        <in>content_type_descriptor.cpp</in>
+        <in>country_availability_descriptor.cpp</in>
+        <in>cp_descriptor.cpp</in>
+        <in>cp_identifier_descriptor.cpp</in>
+        <in>cpcm_delivery_signalling_descriptor.cpp</in>
+        <in>crc32_descriptor.cpp</in>
+        <in>data_broadcast_descriptor.cpp</in>
+        <in>data_broadcast_id_descriptor.cpp</in>
+        <in>default_authority_descriptor.cpp</in>
+        <in>delegated_application_descriptor.cpp</in>
+        <in>descriptor.cpp</in>
+        <in>descriptor_container.cpp</in>
+        <in>dii_location_descriptor.cpp</in>
+        <in>dsng_descriptor.cpp</in>
+        <in>dts_descriptor.cpp</in>
+        <in>dvb_html_application_boundary_descriptor.cpp</in>
+        <in>dvb_html_application_descriptor.cpp</in>
+        <in>dvb_html_application_location_descriptor.cpp</in>
+        <in>dvb_j_application_descriptor.cpp</in>
+        <in>dvb_j_application_location_descriptor.cpp</in>
+        <in>ecm_repetition_rate_descriptor.cpp</in>
+        <in>enhanced_ac3_descriptor.cpp</in>
+        <in>est_download_time_descriptor.cpp</in>
+        <in>event_information_section.cpp</in>
+        <in>extended_event_descriptor.cpp</in>
+        <in>extension_descriptor.cpp</in>
+        <in>external_application_authorisation_descriptor.cpp</in>
+        <in>frequency_list_descriptor.cpp</in>
+        <in>fta_content_management_descriptor.cpp</in>
+        <in>graphics_constraints_descriptor.cpp</in>
+        <in>group_link_descriptor.cpp</in>
+        <in>image_icon_descriptor.cpp</in>
+        <in>info_descriptor.cpp</in>
+        <in>ip_signaling_descriptor.cpp</in>
+        <in>iso639_language_descriptor.cpp</in>
+        <in>label_descriptor.cpp</in>
+        <in>linkage_descriptor.cpp</in>
+        <in>local_time_offset_descriptor.cpp</in>
+        <in>location_descriptor.cpp</in>
+        <in>logical_channel_descriptor.cpp</in>
+        <in>long_crc_section.cpp</in>
+        <in>long_section.cpp</in>
+        <in>module_link_descriptor.cpp</in>
+        <in>mosaic_descriptor.cpp</in>
+        <in>mpe_fec_section.cpp</in>
+        <in>multilingual_bouquet_name_descriptor.cpp</in>
+        <in>multilingual_component_descriptor.cpp</in>
+        <in>multilingual_network_name_descriptor.cpp</in>
+        <in>multilingual_service_name_descriptor.cpp</in>
+        <in>name_descriptor.cpp</in>
+        <in>network_information_section.cpp</in>
+        <in>network_name_descriptor.cpp</in>
+        <in>nvod_reference_descriptor.cpp</in>
+        <in>parental_rating_descriptor.cpp</in>
+        <in>pdc_descriptor.cpp</in>
+        <in>plugin_descriptor.cpp</in>
+        <in>prefetch_descriptor.cpp</in>
+        <in>private_data_specifier_descriptor.cpp</in>
+        <in>program_association_section.cpp</in>
+        <in>program_map_section.cpp</in>
+        <in>registration_descriptor.cpp</in>
+        <in>related_content_descriptor.cpp</in>
+        <in>running_status_section.cpp</in>
+        <in>s2_satellite_delivery_system_descriptor.cpp</in>
+        <in>satellite_delivery_system_descriptor.cpp</in>
+        <in>scrambling_descriptor.cpp</in>
+        <in>service_availability_descriptor.cpp</in>
+        <in>service_description_section.cpp</in>
+        <in>service_descriptor.cpp</in>
+        <in>service_identifier_descriptor.cpp</in>
+        <in>service_list_descriptor.cpp</in>
+        <in>service_move_descriptor.cpp</in>
+        <in>short_crc_section.cpp</in>
+        <in>short_event_descriptor.cpp</in>
+        <in>short_section.cpp</in>
+        <in>short_smoothing_buffer_descriptor.cpp</in>
+        <in>simple_application_boundary_descriptor.cpp</in>
+        <in>simple_application_location_descriptor.cpp</in>
+        <in>stream_identifier_descriptor.cpp</in>
+        <in>stuffing_descriptor.cpp</in>
+        <in>subtitling_descriptor.cpp</in>
+        <in>t2_delivery_system_descriptor.cpp</in>
+        <in>target_background_grid_descriptor.cpp</in>
+        <in>telephone_descriptor.cpp</in>
+        <in>teletext_descriptor.cpp</in>
+        <in>terrestrial_delivery_system_descriptor.cpp</in>
+        <in>time_date_section.cpp</in>
+        <in>time_offset_section.cpp</in>
+        <in>time_shifted_service_descriptor.cpp</in>
+        <in>time_slice_fec_identifier_descriptor.cpp</in>
+        <in>transport_protocol_descriptor.cpp</in>
+        <in>transport_stream_description_section.cpp</in>
+        <in>transport_stream_descriptor.cpp</in>
+        <in>tva_id_descriptor.cpp</in>
+        <in>type_descriptor.cpp</in>
+        <in>unknown_descriptor.cpp</in>
+        <in>vbi_data_descriptor.cpp</in>
+        <in>vbi_teletext_descriptor.cpp</in>
+        <in>video_stream_descriptor.cpp</in>
+        <in>video_window_descriptor.cpp</in>
+        <in>xait_location_descriptor.cpp</in>
+      </df>
+    </df>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Android.mk</itemPath>
+      <itemPath>nbproject/private/launcher.properties</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>.</Elem>
+  </sourceRootList>
+  <projectmakefile>Android.mk</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <codeAssistance>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>.</buildCommandWorkingDir>
+          <buildCommand>${MAKE} -f Android.mk</buildCommand>
+          <cleanCommand>${MAKE} -f Android.mk clean</cleanCommand>
+          <executablePath></executablePath>
+        </makeTool>
+        <preBuild>
+          <preBuildCommandWorkingDir>.</preBuildCommandWorkingDir>
+          <preBuildCommand></preBuildCommand>
+        </preBuild>
+      </makefileType>
+      <item path="src/aac_descriptor.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/ac3_descriptor.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/adaptation_field_data_descriptor.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/ancillary_data_descriptor.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/announcement_support_descriptor.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/application_descriptor.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/application_icons_descriptor.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/application_identifier.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/application_information_section.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/application_name_descriptor.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/application_profile.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/application_signalling_descriptor.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/application_storage_descriptor.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/application_usage_descriptor.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/audio_stream_descriptor.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/bouquet_association_section.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/bouquet_name_descriptor.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/ca_descriptor.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/ca_identifier_descriptor.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/ca_message_section.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/ca_program_map_section.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/ca_section.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/cable_delivery_system_descriptor.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/caching_priority_descriptor.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/carousel_identifier_descriptor.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/cell_frequency_link_descriptor.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/cell_list_descriptor.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/component_descriptor.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/compressed_module_descriptor.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/content_descriptor.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/content_identifier_descriptor.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/content_identifier_section.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/content_type_descriptor.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/country_availability_descriptor.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/cp_descriptor.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/cp_identifier_descriptor.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/cpcm_delivery_signalling_descriptor.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/crc32_descriptor.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/data_broadcast_descriptor.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/data_broadcast_id_descriptor.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/default_authority_descriptor.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/delegated_application_descriptor.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/descriptor.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/descriptor_container.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/dii_location_descriptor.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/dsng_descriptor.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/dts_descriptor.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/dvb_html_application_boundary_descriptor.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/dvb_html_application_descriptor.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/dvb_html_application_location_descriptor.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/dvb_j_application_descriptor.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/dvb_j_application_location_descriptor.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/ecm_repetition_rate_descriptor.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/enhanced_ac3_descriptor.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/est_download_time_descriptor.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/event_information_section.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/extended_event_descriptor.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/extension_descriptor.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/external_application_authorisation_descriptor.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/frequency_list_descriptor.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/fta_content_management_descriptor.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/graphics_constraints_descriptor.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/group_link_descriptor.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/image_icon_descriptor.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/info_descriptor.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/ip_signaling_descriptor.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/iso639_language_descriptor.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/label_descriptor.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/linkage_descriptor.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/local_time_offset_descriptor.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/location_descriptor.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/logical_channel_descriptor.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/long_crc_section.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/long_section.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/module_link_descriptor.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/mosaic_descriptor.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/mpe_fec_section.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/multilingual_bouquet_name_descriptor.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/multilingual_component_descriptor.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/multilingual_network_name_descriptor.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/multilingual_service_name_descriptor.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/name_descriptor.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/network_information_section.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/network_name_descriptor.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/nvod_reference_descriptor.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/parental_rating_descriptor.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/pdc_descriptor.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/plugin_descriptor.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/prefetch_descriptor.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/private_data_specifier_descriptor.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/program_association_section.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/program_map_section.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/registration_descriptor.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/related_content_descriptor.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/running_status_section.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/s2_satellite_delivery_system_descriptor.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/satellite_delivery_system_descriptor.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/scrambling_descriptor.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/service_availability_descriptor.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/service_description_section.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/service_descriptor.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/service_identifier_descriptor.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/service_list_descriptor.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/service_move_descriptor.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/short_crc_section.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/short_event_descriptor.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/short_section.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/short_smoothing_buffer_descriptor.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/simple_application_boundary_descriptor.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/simple_application_location_descriptor.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/stream_identifier_descriptor.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/stuffing_descriptor.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/subtitling_descriptor.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/t2_delivery_system_descriptor.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/target_background_grid_descriptor.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/telephone_descriptor.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/teletext_descriptor.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/terrestrial_delivery_system_descriptor.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/time_date_section.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/time_offset_section.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/time_shifted_service_descriptor.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/time_slice_fec_identifier_descriptor.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/transport_protocol_descriptor.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/transport_stream_description_section.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/transport_stream_descriptor.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/tva_id_descriptor.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/type_descriptor.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/unknown_descriptor.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/vbi_data_descriptor.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/vbi_teletext_descriptor.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/video_stream_descriptor.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/video_window_descriptor.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/xait_location_descriptor.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
